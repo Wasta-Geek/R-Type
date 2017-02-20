@@ -14,7 +14,7 @@ CMake : Version > 3.0
 
 Compilation
 =
-Linux : Just execute make.sh at project's root folder.
+Linux : Just execute make.sh at project's root folder.    
 Windows : Execute CMake at project's root folder and then open rtype.sln with VisualStudio and build the project 
 
 Code Example
