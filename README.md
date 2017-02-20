@@ -9,17 +9,23 @@ Make the famous multi-player shoot-em-up R-Type in C++ with a client/server arch
 Required
 =
 SFML : Version > 2.0  
-CMake : Version > 3.0
+CMake : Version > 3.0   
+[For windows : "SFML" directory must be located in C:/Program Files(x86)]
+
+Compilation
+=
+Linux : Just execute make.sh at project's root folder.
+Windows : Execute CMake at project's root folder and then open rtype.sln with VisualStudio and build the project 
 
 Code Example
 =
 
-Server
+Server directory
 --
 Usage : ./server_rtype [port]	
 *port : port of communication, default is 4242*
 
-Client
+Client directory
 --
 Usage : ./client_rtype [port [address]]   
 *port : port of communication, default is 4242*   
