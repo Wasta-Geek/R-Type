@@ -10,13 +10,13 @@ Required
 =
 SFML : Version > 2.0  
 CMake : Version > 3.0   
-[For windows : "SFML" directory must be located in C:/Program Files(x86)]
+[For windows : "SFML" directory must be located in C:\Programs Files]
 
 Compilation
 =
 Linux : Just execute make.sh at project's root folder.    
 Windows : Execute CMake at project's root folder and then open rtype.sln with VisualStudio and build the project 
-
+(By default project is build in Debug, so you need to copy all DLL to "Debug" folder or to copy the .exe in his proper folder)
 Code Example
 =
 
